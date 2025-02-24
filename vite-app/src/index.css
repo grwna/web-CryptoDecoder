@@ -1,0 +1,76 @@
+body {
+  background-color: #22242F;
+  font-family: Jost;
+  color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  min-height: 90vh;
+}
+
+main {
+  background-color: #373E4F;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  padding: 50px;
+  box-sizing: border-box;
+  gap: 30px;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 500;
+  text-align: center;
+}
+
+textarea {
+  height: 300px;
+  width: 400px;
+  font-family: jost;
+  font-size: 20px;
+  box-sizing: border-box;
+  resize: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.decode-btn {
+  width: 200px;
+  height: 35px;
+  font-family: jost;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #FFE1B2;
+  align-self: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+div.buttons-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  min-width: 90px;
+  gap: 50px;
+}
+.rots-div span {
+  font-size: 25px;
+  font-family: jost;
+  margin-inline: 5px;
+}
+.rots-div button {
+  background-color:  #FFE1B2;
+  font-weight: 700;
+  font-size: 20px;
+}
+.rots-div button:active {
+  background-color: #FFA739;
+}
+
+.decode-btn:active {
+  background-color: #FFA739;
+}
